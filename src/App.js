@@ -1,6 +1,6 @@
 import React from 'react'
 import { Blog, Features, Footer, Header, Possibility, WhatGPT3 } from './containers';
-import { Article, Brand, CTA, Feature, Navbar } from './components';
+import { Brand, CTA, Navbar } from './components';
 
 const App = () => {
     return ( 
@@ -11,6 +11,11 @@ const App = () => {
         </div> 
             <Brand />
             <WhatGPT3 />
+            <Features />
+            <Possibility />
+            <CTA />
+            <Blog />
+            <Footer />
         </div>
     )
 }
