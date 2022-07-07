@@ -1,5 +1,5 @@
 import React from 'react'
-import './cta.css';
+import './CTA.css';
 
 const CTA = () => {
   return (
